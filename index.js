@@ -46,7 +46,7 @@ restService.post("/echo", function(req, res) {
   });
 });
 
-restService.post("/audio", function(req, res) {
+restService.post("/myrathebot", function(req, res) {
   var speech = "";
   switch (req.body.result.parameters.AudioSample.toLowerCase()) {
     //Speech Synthesis Markup Language 
