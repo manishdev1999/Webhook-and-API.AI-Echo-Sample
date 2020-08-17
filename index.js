@@ -47,17 +47,6 @@ restService.post("/echo", function(req, res) {
 });
 
 restService.post("/myrathebot", function(req, res) {
-  var speech =
-        '<speak><audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
-  }
-  return res.json({
-    speech: speech,
-    displayText: speech,
-    source: "webhook-echo-sample"
-  });
-});
-
-restService.post("/video", function(req, res) {
   return res.json({
     speech:
       '<speak>  <audio src="https://www.youtube.com/watch?v=VX7SSnvpj-8">did not get your MP3 audio file</audio></speak>',
